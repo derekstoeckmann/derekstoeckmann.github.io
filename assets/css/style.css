@@ -1,5 +1,5 @@
 body {
-  font-size: 18px;
+  font-size: 16px;
   margin: 0;
   padding: 0;
   background-image: url("../images/paisley.png");
@@ -39,7 +39,7 @@ main {
 
 footer {
   width: 100%;
-  font-size: 0.8em;
+  font-size: 1em;
   background: #666666;
   border-top: 8px solid #4aaaa5;
   position: fixed;
@@ -94,8 +94,15 @@ a:hover {
 }
 
 .image-text {
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
   background: #4aaaa5;
+  font-size: 1.5em;
   color: #ffffff;
+  position: absolute;
+  bottom: 20px;
 }
 
 .about-image {
@@ -107,4 +114,12 @@ a:hover {
 #copyright {
   color: #ffffff;
   text-align: center;
+}
+
+.project {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  position: relative;
 }
