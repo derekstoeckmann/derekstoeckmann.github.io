@@ -1,3 +1,5 @@
+/* Main HTML areas */
+
 body {
   font-size: 16px;
   line-height: 1.6;
@@ -9,26 +11,6 @@ body {
 header {
   background: #ffffff;
   border-bottom: 1px solid #cccccc;
-}
-
-nav {
-  float: right;
-  text-align: right;
-  padding-top: 25px;
-}
-
-nav ul {
-  margin-top: 10px;
-  padding: 0;
-}
-
-nav li {
-  display: inline;
-  margin-right: 20px;
-}
-
-nav li:last-child {
-  margin-right: 0;
 }
 
 main {
@@ -47,6 +29,8 @@ footer {
   bottom: 0;
   z-index: 1;
 }
+
+/* Text, links, hr */
 
 h1 {
   float: left;
@@ -88,45 +72,29 @@ a:hover {
   text-decoration: underline;
 }
 
-.header-container {
-  width: 960px;
-  margin: 0 auto;
+/* Nav styling */
+
+nav {
+  float: right;
+  text-align: right;
+  padding-top: 25px;
 }
 
-.main-container {
-  padding: 20px;
+nav ul {
+  margin-top: 10px;
+  padding: 0;
 }
 
-.image-text {
-  width: 100%;
-  margin: 0;
-  padding: 10px 0;
-  text-align: center;
-  background: #4aaaa5;
-  font-size: 1.5em;
-  color: #ffffff;
-  position: absolute;
-  bottom: 20px;
-}
-
-.about-image {
-  float: left;
+nav li {
+  display: inline;
   margin-right: 20px;
-  margin-bottom: 20px;
 }
 
-#copyright {
-  color: #ffffff;
-  text-align: center;
+nav li:last-child {
+  margin-right: 0;
 }
 
-.project {
-  float: left;
-  width: 300px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  position: relative;
-}
+/* Form styling */
 
 form label {
   display: block;
@@ -162,4 +130,48 @@ form button {
 
 form button:hover {
   background: darkcyan;
+}
+
+/* Classes */
+
+.header-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.main-container {
+  padding: 20px;
+}
+
+.image-text {
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  background: #4aaaa5;
+  font-size: 1.5em;
+  color: #ffffff;
+  position: absolute;
+  bottom: 20px;
+}
+
+.about-image {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.project {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* IDs */
+
+#copyright {
+  color: #ffffff;
+  text-align: center;
 }
